@@ -13,7 +13,7 @@ import android.widget.TextView;
  */
 /*----------Listener class to get coordinates ------------- */
 public class MyLocationListener implements LocationListener {
-    private final static String SERVER_URL="http://183.82.95.247:8888/save/";
+    private final static String SERVER_URL="http://183.82.95.247:8888/save/data";
     private SendCoordinates sendCoordinates  = null;
     private TextView latt = null;
     private TextView longg = null;

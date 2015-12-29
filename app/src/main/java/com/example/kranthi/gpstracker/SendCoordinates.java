@@ -14,7 +14,7 @@ import java.util.Date;
  */
 public class SendCoordinates {
 
-    public final static String DATE_FORMAT = "yyyy-MM-dd hh:mm:ss a";
+    public final static String DATE_FORMAT = "yyyy-MM-dd,hh:mm:ss,a";
 
     public static void sendCoordinates(String server_url) {
 
